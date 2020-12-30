@@ -256,6 +256,7 @@ GEM
     orm_adapter (0.5.0)
     paranoia (2.4.3)
       activerecord (>= 4.0, < 6.2)
+    pg (1.2.3)
     polyglot (0.3.5)
     popper_js (1.16.0)
     premailer (1.14.2)
@@ -355,7 +356,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.2)
     state_machines (0.5.0)
     state_machines-activemodel (0.7.1)
       activemodel (>= 4.1)
@@ -407,6 +407,7 @@ DEPENDENCIES
   capybara (>= 3.26)
   jbuilder (~> 2.7)
   listen (~> 3.3)
+  pg (~> 1.1)
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.0)
@@ -416,7 +417,6 @@ DEPENDENCIES
   spree_auth_devise (~> 4.2)
   spree_gateway (~> 3.9)
   spring
-  sqlite3 (~> 1.4)
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
